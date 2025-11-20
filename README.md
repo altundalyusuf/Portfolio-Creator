@@ -1,49 +1,69 @@
-﻿
-# Portfolyo Oluşturucu
+# 🎨 Portfolio Creator Platform
 
-Bu projeyi Üretken Akademi Yazılımcı Fabrikası'nda bitirme projesi olarak yaptım. Projede React, Firebase, Vite, Tailwind.CSS, Daisy.ui başta olmak üzere çok şey kullandım. Proje aynı zamanda Responsive ve mobil uyumludur. Projenin linki ve projeyi gösteren ekran görüntüleri aşağıdadır.
-## Projenin Amacı
-Projenin amacı; kayıt olan kişiye kendi bilgileri ile doldurabileceği bir Portfolyo sitesi sağlamaktır. Kayıt olduktan sonra kişi Ana sayfada neler yapması gerektiğine dair bir açıklama ile karşılaşır. Projeye hem Google ile hem de mail ile üye olunabilmektedir. Kişi Portfolyo sayfasında hakkında, eğitim, deneyimler, yetenekler, sertifikalar vb. birçok bilgiyi ekleyebilirken 'Gönderi Oluştur' sayfasında istediği konu ile ilgili gönderiler oluşturabilmektedir. Gönderilerine görsel ekleyebilmektedir. Kişi profil fotoğrafını ve kullanıcı adını değiştirebilmektedir. Aynı zamanda projenin temasını da değiştirebilmektedir. 
-## Demo
-Projeye aşağıdaki linklerden ulaşabilirsiniz:  
-https://altundalyusuf-portfolio-creator.netlify.app
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
-  
-## Yorumum
-Bu projeyi yaparken çok zorlandım. Firebase hakkında 0 bilgi ile başladım ve karşıma çok fazla hata ve zorluk çıktı. Fakat projeyi bitirmekte kararlılıkla devam ettim ve bu benim için çok güzel bir deneyim oldu. Ortaya büyük / orta büyüklükte çok güzel bir proje çıktı ve beni çok gururlandırdı. Bilgi birikimimi ve araştırma azmimi bu projede kullandığım ve projeyi tamamladığım için çok mutluyum. 
-## Kullanılan Teknolojiler
+> **"Build your professional identity in minutes."**
+> A dynamic web application that empowers users to create, manage, and share their personal portfolios without writing a single line of code.
 
-**İstemci:** React, Vite, TailwindCSS, DaisyUI, ...
+## 🔗 Live Demo
+🚀 **View the Live App:** [Portfolio Creator on Netlify](https://altundalyusuf-portfolio-creator.netlify.app)
 
-**Sunucu:** Firebase
+---
 
-  
-## Bilgisayarınızda Çalıştırın
+## 📖 Project Overview
+This project was developed as a **Capstone Project** for the **Üretken Akademi Software Factory**. The goal was to create a scalable CMS (Content Management System) where users can register and dynamically build their resume websites.
 
-Projeyi klonlayın
+Unlike static portfolios, this application offers a full **CRUD** experience, allowing users to add their education, experience, skills, and even share blog-style posts with images.
 
-```bash
-  git clone https://github.com/altundalyusuf/Portfolio-Project.git
-```
+## ✨ Key Features
 
-Proje dizinine gidin
+### 🔐 Authentication & User Management
+* **Secure Login:** Integrated **Firebase Authentication** supporting both Email/Password and **Google Sign-In**.
+* **Profile Management:** Users can update their profile pictures, usernames, and personal details.
 
+### 📝 Dynamic Portfolio CMS
+* **Resume Builder:** Users can add, edit, and delete entries for:
+  * 🎓 Education
+  * 💼 Work Experience
+  * 🛠️ Technical Skills
+  * 📜 Certifications
+* **Blog System:** A specialized 'Create Post' section where users can share updates with image support.
 
-Gerekli paketleri yükleyin
+### 🎨 UI/UX & Customization
+* **Theme Switcher:** Toggle between different visual themes to match personal style.
+* **Fully Responsive:** Optimized for all devices (Mobile, Tablet, Desktop) using **Tailwind CSS** and **DaisyUI**.
+* **Guided Experience:** Interactive onboarding on the Home page to guide new users.
 
-```bash
-  npm install
-```
+---
 
-Sunucuyu çalıştırın
+## 🛠️ Tech Stack
 
-```bash
-  npm run dev
-```
+| Component | Technology |
+| :--- | :--- |
+| **Frontend Framework** | React.js (Vite) |
+| **Backend-as-a-Service** | Firebase (Auth, Firestore, Storage) |
+| **Styling** | Tailwind CSS, DaisyUI |
+| **State Management** | React Hooks |
+| **Routing** | React Router DOM |
 
-  
-## Ekran Görüntüleri
+---
 
+## 💡 Technical Challenges & Learnings
+> *"I started this project with zero prior knowledge of Firebase."*
+
+Building this platform was a significant technical milestone. The biggest challenge was integrating **Firebase** from scratch and handling complex data relationships for the portfolio sections. Overcoming these hurdles required deep research and persistence.
+
+**Key Takeaways:**
+* Mastered **NoSQL data modeling** with Cloud Firestore.
+* Implemented secure file uploads using **Firebase Storage**.
+* Gained deep experience in handling asynchronous state and React side effects.
+
+---
+
+## 📸 Screenshots
 ![1](https://user-images.githubusercontent.com/79724222/232333195-2d038027-d1ac-4cd4-9f25-4e6cbc1c9e27.png)
 ![2](https://user-images.githubusercontent.com/79724222/232333250-a530ffca-ee99-4b20-a919-011229049262.png)
 ![3](https://user-images.githubusercontent.com/79724222/232333637-0a0fc13d-0fa8-400e-bb1c-c68fa4653ce2.png)
@@ -58,6 +78,8 @@ Sunucuyu çalıştırın
 ![12](https://user-images.githubusercontent.com/79724222/232333688-69460a3e-522c-4f7a-87da-146630830f27.png)
 ![13](https://user-images.githubusercontent.com/79724222/232334085-ea3d9e7e-ca71-40a0-9d72-cc141f36d355.png)
 ![14](https://user-images.githubusercontent.com/79724222/232334121-15846d96-5409-4951-adf3-2e25803f8bcb.png)
+
+---
 
 
 
